@@ -24,4 +24,20 @@ const nomnom = (person, food) => {
 };
 
 console.log(nomnom('charles' , bearStix)); //charles devoured bear stix
-console.log(nomnom('I' , lunch));
+
+// function numberAdder that takes a number and returns the number plus 3. so input=22, output=25;
+
+const numberAdder = (num) => {
+    const finalNumber = num + 3;
+    printToDom(`<h2>${finalNumber}</h2>`, 'allTheNumbers');
+};
+
+const printToDom = (stringToPrint, divId) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML += stringToPrint;
+};
+numberAdder(22);
+numberAdder(3);
+numberAdder(15);
+
+printToDom('I am ready for lunch', 'feelings');
