@@ -4,7 +4,7 @@ This project is an exploration of javascript functions. I built an animal nugget
 
 
 ## Screenshots
-![screenshot] (.scheenshots/FunctionsCapture.png)
+![main screenshot] (.scheenshots/FunctionsCapture.png)
 
 
 ## How to run this project
